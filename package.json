@@ -1,0 +1,37 @@
+{
+  "name": "daikin-onecta",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npx eslint src/** && npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ptz0n/node-daikin-onecta.git"
+  },
+  "keywords": [
+    "daikin",
+    "onecta",
+    "heatpump"
+  ],
+  "author": "Erik Eng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ptz0n/node-daikin-onecta/issues"
+  },
+  "homepage": "https://github.com/ptz0n/node-daikin-onecta#readme",
+  "description": "",
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.11.1",
+    "eslint": "^9.11.1",
+    "eslint-plugin-jest": "^28.8.3",
+    "globals": "^15.9.0",
+    "jest": "^29.7.0",
+    "nock": "^14.0.0-beta.5"
+  },
+  "type": "module"
+}
